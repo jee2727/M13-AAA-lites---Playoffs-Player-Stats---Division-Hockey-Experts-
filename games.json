@@ -617,6 +617,82 @@
          "assists": 1
        }
      ]
+   },
+   {
+     "gameId": 10,
+     "date": "2026-04-05",
+     "homeTeam": "GRENADIERS LAC ST-LOUIS",
+     "awayTeam": "HARFANGS SHERBROOKE",
+     "homeScore": 4,
+     "awayScore": 3,
+     "plays": [
+       {
+         "playerName": "MATHIS BOISVERT",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "ZACHARY GOSSELIN",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "SAM TREMBLAY",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 2
+       },
+       {
+         "playerName": "ZACK YOUNG",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "RAFAEL MAILLE-GAUTHIER",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "VINCENT VINET",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 2,
+         "assists": 1
+       },
+       {
+         "playerName": "MATIAS TANGUAY",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "WILLIAM MARCEAU",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "EMMANUEL CAMPBELL",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "JACOB FLETCHER",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "ZACK-OLIVIER AMYOT",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       }
+     ]
    }
  ]
 }
