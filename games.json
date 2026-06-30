@@ -87,6 +87,58 @@
           "assists": 1
         }
       ]
+    },
+    {
+      "gameId": 2,
+      "date": "2026-04-03",
+      "homeTeam": "GRENADIERS LAC ST-LOUIS",
+      "awayTeam": "VERT & NOIR DE L'ÉCOLE FADETTE",
+      "homeScore": 11,
+      "awayScore": 1,
+      "plays": [
+        {
+          "playerName": "MATHIS BOISVERT",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 3,
+          "assists": 1
+        },
+        {
+          "playerName": "MIKO PAINCHAUD",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 2,
+          "assists": 0
+        },
+        {
+          "playerName": "VINCENT VINET",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 4
+        },
+        {
+          "playerName": "JACOB FLETCHER",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 2,
+          "assists": 0
+        },
+        {
+          "playerName": "HENRI HEBERT",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 2,
+          "assists": 0
+        },
+        {
+          "playerName": "EMMANUEL CAMPBELL",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "GABRIEL GERVAIS",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 1,
+          "assists": 0
+        }
+      ]
     }
   ]
 }
