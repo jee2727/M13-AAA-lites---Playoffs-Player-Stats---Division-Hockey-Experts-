@@ -1,0 +1,20 @@
+{
+  "games": [
+    {
+      "gameId": 1,
+      "date": "2026-04-03",
+      "homeTeam": "Team 1",
+      "awayTeam": "Team 2",
+      "homeScore": 0,
+      "awayScore": 0,
+      "plays": [
+        {
+          "playerName": "Example Player",
+          "team": "Team 1",
+          "goals": 0,
+          "assists": 0
+        }
+      ]
+    }
+  ]
+}

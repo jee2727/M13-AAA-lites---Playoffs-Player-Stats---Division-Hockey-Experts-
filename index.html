@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M13 AAA-Élites Hockey - Playoffs Player Stats</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px 20px;
+        }
+
+        .stats-info {
+            background: #f0f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        thead {
+            background: #2a5298;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            transition: background 0.2s;
+        }
+
+        th:hover {
+            background: #1e3c72;
+        }
+
+        tbody tr {
+            transition: background 0.1s;
+        }
+
+        tbody tr:hover {
+            background: #f0f4f8;
+        }
+
+        tbody tr:nth-child(odd) {
+            background: #f9f9f9;
+        }
+
+        .rank {
+            font-weight: bold;
+            color: #2a5298;
+            width: 50px;
+        }
+
+        .player-name {
+            text-align: left;
+            font-weight: 500;
+        }
+
+        .stat-cell {
+            font-weight: 500;
+        }
+
+        .pts {
+            color: #d4a574;
+            font-weight: 600;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .empty-state p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #f0f4f8;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            border-top: 1px solid #ddd;
+        }
+
+        .last-updated {
+            color: #999;
+            font-size: 0.85em;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            th, td {
+                padding: 8px;
+                font-size: 0.9em;
+            }
+
+            .player-name {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏒 M13 AAA-Élites Hockey</h1>
+            <p>Playoffs Player Statistics - Hockey Experts Division</p>
+        </header>
+
+        <div class="content">
+            <div class="stats-info">
+                <strong>Playoff Period:</strong> April 3-5, 2026 | <strong>Total Games:</strong> 7 | <strong>Division:</strong> Hockey Experts
+            </div>
+
+            <div id="table-container">
+                <div class="empty-state">
+                    <p>Loading player statistics...</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>Data last updated: <span id="last-updated">N/A</span></div>
+            <div class="last-updated">Games provided: <span id="games-count">0</span> / 7</div>
+        </footer>
+    </div>
+
+    <script>
+        // Load and process game data
+        async function loadGameData() {
+            try {
+                const response = await fetch('games.json');
+                const data = await response.json();
+                processStats(data.games);
+            } catch (error) {
+                console.error('Error loading game data:', error);
+                displayError('Unable to load game data');
+            }
+        }
+
+        // Process games and calculate player statistics
+        function processStats(games) {
+            const playerStats = {};
+
+            // Aggregate stats from all games
+            games.forEach(game => {
+                if (game.plays && Array.isArray(game.plays)) {
+                    game.plays.forEach(play => {
+                        const playerName = play.playerName.trim();
+                        
+                        if (!playerStats[playerName]) {
+                            playerStats[playerName] = {
+                                name: playerName,
+                                gp: 0,
+                                goals: 0,
+                                assists: 0,
+                                points: 0,
+                                gamesPlayed: new Set()
+                            };
+                        }
+
+                        // Track which games this player participated in
+                        playerStats[playerName].gamesPlayed.add(game.gameId);
+                        playerStats[playerName].goals += play.goals || 0;
+                        playerStats[playerName].assists += play.assists || 0;
+                    });
+                }
+            });
+
+            // Calculate final stats
+            const statsList = Object.values(playerStats).map(player => ({
+                name: player.name,
+                gp: player.gamesPlayed.size,
+                goals: player.goals,
+                assists: player.assists,
+                points: player.goals + player.assists
+            }));
+
+            // Sort by points (descending), then by goals (descending)
+            statsList.sort((a, b) => {
+                if (b.points !== a.points) {
+                    return b.points - a.points;
+                }
+                return b.goals - a.goals;
+            });
+
+            // Display the table
+            displayStats(statsList, games.length);
+        }
+
+        // Display player statistics table
+        function displayStats(players, gameCount) {
+            const container = document.getElementById('table-container');
+
+            if (players.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <p>No player statistics available yet.</p>
+                        <p style="font-size: 0.9em; color: #999;">Games will be added soon...</p>
+                    </div>
+                `;
+                document.getElementById('games-count').textContent = gameCount;
+                document.getElementById('last-updated').textContent = new Date().toLocaleDateString();
+                return;
+            }
+
+            let tableHTML = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="rank">#</th>
+                            <th>Player</th>
+                            <th>GP</th>
+                            <th>G</th>
+                            <th>A</th>
+                            <th class="pts">PTS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            players.forEach((player, index) => {
+                tableHTML += `
+                    <tr>
+                        <td class="rank">${index + 1}</td>
+                        <td class="player-name">${player.name}</td>
+                        <td class="stat-cell">${player.gp}</td>
+                        <td class="stat-cell">${player.goals}</td>
+                        <td class="stat-cell">${player.assists}</td>
+                        <td class="stat-cell pts">${player.points}</td>
+                    </tr>
+                `;
+            });
+
+            tableHTML += `
+                    </tbody>
+                </table>
+            `;
+
+            container.innerHTML = tableHTML;
+            document.getElementById('games-count').textContent = gameCount;
+            document.getElementById('last-updated').textContent = new Date().toLocaleDateString();
+        }
+
+        // Display error message
+        function displayError(message) {
+            const container = document.getElementById('table-container');
+            container.innerHTML = `
+                <div class="empty-state">
+                    <p>⚠️ ${message}</p>
+                </div>
+            `;
+        }
+
+        // Load data on page load
+        window.addEventListener('DOMContentLoaded', loadGameData);
+    </script>
+</body>
+</html>
