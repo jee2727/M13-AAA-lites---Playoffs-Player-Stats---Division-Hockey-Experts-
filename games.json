@@ -3,16 +3,88 @@
     {
       "gameId": 1,
       "date": "2026-04-03",
-      "homeTeam": "Team 1",
-      "awayTeam": "Team 2",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeTeam": "HARFANGS SHERBROOKE",
+      "awayTeam": "DYNAMIQUES CCL",
+      "homeScore": 5,
+      "awayScore": 4,
       "plays": [
         {
-          "playerName": "Example Player",
-          "team": "Team 1",
+          "playerName": "DAMIEN BLANCHARD",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "JACOB ROY",
+          "team": "DYNAMIQUES CCL",
           "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "GUSTAVE BEAUREGARD",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
           "assists": 0
+        },
+        {
+          "playerName": "YOHAN GRENIER",
+          "team": "DYNAMIQUES CCL",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "RAPHAEL NERESTANT-LINDOR",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "HUGO DELFOSSE",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "ELLIOT BOISVERT",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "RAFAEL MAILLE-GAUTHIER",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "ARNAUD LAPLUME",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "DEVON BEAUREGARD",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LINWA AREERATTANATRAGOON",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "SIMON DOSTIE",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "KOLT HOOD",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 0,
+          "assists": 1
         }
       ]
     }
