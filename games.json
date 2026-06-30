@@ -349,6 +349,76 @@
           "assists": 1
         }
       ]
+    },
+    {
+      "gameId": 6,
+      "date": "2026-04-03",
+      "homeTeam": "VERT & NOIR DE L'ÉCOLE FADETTE",
+      "awayTeam": "COLLEGE FRANCAIS RIVE-SUD",
+      "homeScore": 5,
+      "awayScore": 1,
+      "plays": [
+        {
+          "playerName": "MILAN VUKOMANOVIC",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 2,
+          "assists": 1
+        },
+        {
+          "playerName": "FELIX LAVIGNE",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 2,
+          "assists": 1
+        },
+        {
+          "playerName": "ALEXIS SIMARD-BOISSONNEAULT",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "JAYZ MORIN",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "LIAM PELLETIER",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "ÉDOUARD ST-PIERRE",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "CHRISTOPHE BERNARD",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "THOMAS LEJOUR-LANGLOIS",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "WILLIAM BOILY",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "CHARLES GAGNON",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 0,
+          "assists": 1
+        }
+      ]
     }
   ]
 }
