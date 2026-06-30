@@ -215,6 +215,76 @@
           "assists": 1
         }
       ]
+    },
+    {
+      "gameId": 4,
+      "date": "2026-04-03",
+      "homeTeam": "LIONS LAC ST-LOUIS",
+      "awayTeam": "HARFANGS SHERBROOKE",
+      "homeScore": 11,
+      "awayScore": 0,
+      "plays": [
+        {
+          "playerName": "LIAM GEFFIN",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "SASHA DURDEVIC",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 3,
+          "assists": 1
+        },
+        {
+          "playerName": "KWENCY FONTAINE",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 2
+        },
+        {
+          "playerName": "TYLER STEINBERG",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LIAM LESKIEWICZ",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "JORDAN LOBE",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "FINLEY BRUNELLE",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 2
+        },
+        {
+          "playerName": "BRANDON TAMARO",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "THOMAS HENRY YARED",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LEO PICCIUTO",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 0
+        }
+      ]
     }
   ]
 }
