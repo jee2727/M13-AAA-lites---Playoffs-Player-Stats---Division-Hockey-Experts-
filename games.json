@@ -507,6 +507,64 @@
           "assists": 0
         }
       ]
+    },
+    {
+      "gameId": 8,
+      "date": "2026-04-04",
+      "homeTeam": "HARFANGS SHERBROOKE",
+      "awayTeam": "VERT & NOIR DE L'ÉCOLE FADETTE",
+      "homeScore": 2,
+      "awayScore": 1,
+      "plays": [
+       {
+         "playerName": "LIAM PELLETIER",
+         "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "LOIC GARNEAU",
+         "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "GABRIEL GERVAIS",
+         "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "LINWA AREERATTANATRAGOON",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "WILLIAM MARCEAU",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "SAM TREMBLAY",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "EDOUARD ST-ARNEAULT",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "ANTHONY LEHOUX",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       }
+      ]
     }
   ]
 }
