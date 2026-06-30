@@ -1,0 +1,798 @@
+{
+  "games": [
+    {
+      "gameId": 1,
+      "date": "2026-04-03",
+      "homeTeam": "HARFANGS SHERBROOKE",
+      "awayTeam": "DYNAMIQUES CCL",
+      "homeScore": 5,
+      "awayScore": 4,
+      "plays": [
+        {
+          "playerName": "DAMIEN BLANCHARD",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "JACOB ROY",
+          "team": "DYNAMIQUES CCL",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "GUSTAVE BEAUREGARD",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "YOHAN GRENIER",
+          "team": "DYNAMIQUES CCL",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "RAPHAEL NERESTANT-LINDOR",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "HUGO DELFOSSE",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "ELLIOT BOISVERT",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "RAFAEL MAILLE-GAUTHIER",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "ARNAUD LAPLUME",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "DEVON BEAUREGARD",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LINWA AREERATTANATRAGOON",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "SIMON DOSTIE",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "KOLT HOOD",
+          "team": "HARFANGS SHERBROOKE",
+          "goals": 0,
+          "assists": 1
+        }
+      ]
+    },
+    {
+      "gameId": 2,
+      "date": "2026-04-03",
+      "homeTeam": "GRENADIERS LAC ST-LOUIS",
+      "awayTeam": "VERT & NOIR DE L'ÉCOLE FADETTE",
+      "homeScore": 11,
+      "awayScore": 1,
+      "plays": [
+        {
+          "playerName": "MATHIS BOISVERT",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 3,
+          "assists": 1
+        },
+        {
+          "playerName": "MIKO PAINCHAUD",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 2,
+          "assists": 0
+        },
+        {
+          "playerName": "VINCENT VINET",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 4
+        },
+        {
+          "playerName": "JACOB FLETCHER",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 2,
+          "assists": 0
+        },
+        {
+          "playerName": "HENRI HEBERT",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 2,
+          "assists": 0
+        },
+        {
+          "playerName": "EMMANUEL CAMPBELL",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "GABRIEL GERVAIS",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 1,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "gameId": 3,
+      "date": "2026-04-03",
+      "homeTeam": "NOIR ET OR DE MORTAGNE",
+      "awayTeam": "COLLEGE FRANCAIS RIVE-SUD",
+      "homeScore": 4,
+      "awayScore": 2,
+      "plays": [
+        {
+          "playerName": "JUSTIN LAMBERT",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "DARREN ROSS",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "SAMUEL-JAMES BYRNS-AUBUT",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "CHARLES GAGNON",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "MATT GENDREAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "JAYDEN RIENDEAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "SAMUEL LALANDE",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "ELLIOT PELLETIER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LIAM NAUD",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "SAMUEL MEILLEUR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "ARTHUR BOUCHER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        }
+      ]
+    },
+    {
+      "gameId": 4,
+      "date": "2026-04-03",
+      "homeTeam": "LIONS LAC ST-LOUIS",
+      "awayTeam": "HARFANGS SHERBROOKE",
+      "homeScore": 11,
+      "awayScore": 0,
+      "plays": [
+        {
+          "playerName": "LIAM GEFFIN",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "SASHA DURDEVIC",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 3,
+          "assists": 1
+        },
+        {
+          "playerName": "KWENCY FONTAINE",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 2
+        },
+        {
+          "playerName": "TYLER STEINBERG",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LIAM LESKIEWICZ",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "JORDAN LOBE",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "FINLEY BRUNELLE",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 2
+        },
+        {
+          "playerName": "BRANDON TAMARO",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "THOMAS HENRY YARED",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LEO PICCIUTO",
+          "team": "LIONS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "gameId": 5,
+      "date": "2026-04-03",
+      "homeTeam": "NOIR ET OR DE MORTAGNE",
+      "awayTeam": "GRENADIERS LAC ST-LOUIS",
+      "homeScore": 2,
+      "awayScore": 3,
+      "plays": [
+        {
+          "playerName": "JAYDEN RIENDEAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "ELLIOT PELLETIER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "ARTHUR BOUCHER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "MARIN TESAR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "MATT GENDREAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "CHARLES MAJOR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "MATHIS BOISVERT",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 2,
+          "assists": 0
+        },
+        {
+          "playerName": "VINCENT VINET",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "EMMANUEL CAMPBELL",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 0,
+          "assists": 1
+        }
+      ]
+    },
+    {
+      "gameId": 6,
+      "date": "2026-04-03",
+      "homeTeam": "VERT & NOIR DE L'ÉCOLE FADETTE",
+      "awayTeam": "COLLEGE FRANCAIS RIVE-SUD",
+      "homeScore": 5,
+      "awayScore": 1,
+      "plays": [
+        {
+          "playerName": "MILAN VUKOMANOVIC",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 2,
+          "assists": 1
+        },
+        {
+          "playerName": "FELIX LAVIGNE",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 2,
+          "assists": 1
+        },
+        {
+          "playerName": "ALEXIS SIMARD-BOISSONNEAULT",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "JAYZ MORIN",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "LIAM PELLETIER",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "ÉDOUARD ST-PIERRE",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "CHRISTOPHE BERNARD",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "THOMAS LEJOUR-LANGLOIS",
+          "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "WILLIAM BOILY",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "CHARLES GAGNON",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 0,
+          "assists": 1
+        }
+      ]
+    },
+    {
+      "gameId": 7,
+      "date": "2026-04-04",
+      "homeTeam": "NOIR ET OR DE MORTAGNE",
+      "awayTeam": "DYNAMIQUES CCL",
+      "homeScore": 5,
+      "awayScore": 1,
+      "plays": [
+        {
+          "playerName": "DAMIEN BLANCHARD",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "LUCAS RAYMOND",
+          "team": "DYNAMIQUES CCL",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "JACOB ROY",
+          "team": "DYNAMIQUES CCL",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "LIAM NAUD",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "MATT GENDREAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "JAYDEN RIENDEAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "SAMUEL MEILLEUR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "GABRIEL ROY",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "SAMUEL LALANDE",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "CHARLES MAJOR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "ALEXIS POUDRIER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "ELLIOT PELLETIER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LAMBERT BOUCHER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        }
+      ]
+    },
+    {
+      "gameId": 8,
+      "date": "2026-04-04",
+      "homeTeam": "HARFANGS SHERBROOKE",
+      "awayTeam": "VERT & NOIR DE L'ÉCOLE FADETTE",
+      "homeScore": 2,
+      "awayScore": 1,
+      "plays": [
+       {
+         "playerName": "LIAM PELLETIER",
+         "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "LOIC GARNEAU",
+         "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "GABRIEL GERVAIS",
+         "team": "VERT & NOIR DE L'ÉCOLE FADETTE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "LINWA AREERATTANATRAGOON",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "WILLIAM MARCEAU",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "SAM TREMBLAY",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "EDOUARD ST-ARNEAULT",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "ANTHONY LEHOUX",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       }
+      ]
+   },
+   {
+     "gameId": 9,
+     "date": "2026-04-05",
+     "homeTeam": "LIONS LAC ST-LOUIS",
+     "awayTeam": "NOIR ET OR DE MORTAGNE",
+     "homeScore": 3,
+     "awayScore": 2,
+     "plays": [
+       {
+         "playerName": "JORDAN LOBE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 2,
+         "assists": 0
+       },
+       {
+         "playerName": "FINLEY BRUNELLE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "BRANDON TAMARO",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "ARTHUR BOUCHER",
+         "team": "NOIR ET OR DE MORTAGNE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "ALEXIS POUDRIER",
+         "team": "NOIR ET OR DE MORTAGNE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "SAMUEL MEILLEUR",
+         "team": "NOIR ET OR DE MORTAGNE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "GABRIEL ROY",
+         "team": "NOIR ET OR DE MORTAGNE",
+         "goals": 0,
+         "assists": 1
+       }
+     ]
+   },
+   {
+     "gameId": 10,
+     "date": "2026-04-05",
+     "homeTeam": "GRENADIERS LAC ST-LOUIS",
+     "awayTeam": "HARFANGS SHERBROOKE",
+     "homeScore": 4,
+     "awayScore": 3,
+     "plays": [
+       {
+         "playerName": "MATHIS BOISVERT",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "ZACHARY GOSSELIN",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "SAM TREMBLAY",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 2
+       },
+       {
+         "playerName": "ZACK YOUNG",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "RAFAEL MAILLE-GAUTHIER",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "VINCENT VINET",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 2,
+         "assists": 1
+       },
+       {
+         "playerName": "MATIAS TANGUAY",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "WILLIAM MARCEAU",
+         "team": "HARFANGS SHERBROOKE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "EMMANUEL CAMPBELL",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "JACOB FLETCHER",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "ZACK-OLIVIER AMYOT",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       }
+     ]
+   },
+   {
+     "gameId": 11,
+     "date": "2026-04-05",
+     "homeTeam": "LIONS LAC ST-LOUIS",
+     "awayTeam": "GRENADIERS LAC ST-LOUIS",
+     "homeScore": 7,
+     "awayScore": 1,
+     "plays": [
+       {
+         "playerName": "LIAM GEFFIN",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "KWENCY FONTAINE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 3
+       },
+       {
+         "playerName": "LIAM LESKIEWICZ",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "THOMAS LACELLE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "FINLEY BRUNELLE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "TYLER STEINBERG",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "SASHA DURDEVIC",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "JORDAN LOBE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "THOMAS HENRY YARED",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "GEORGE MANOS",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "BRANDON TAMARO",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "AYDEN GOUDREAU",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "JACOB FLETCHER",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "MIKO PAINCHAUD",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "MATHIS BOISVERT",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       }
+     ]
+   }
+ ]
+}
