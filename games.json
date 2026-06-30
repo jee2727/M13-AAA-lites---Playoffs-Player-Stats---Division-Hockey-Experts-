@@ -419,6 +419,94 @@
           "assists": 1
         }
       ]
+    },
+    {
+      "gameId": 7,
+      "date": "2026-04-04",
+      "homeTeam": "NOIR ET OR DE MORTAGNE",
+      "awayTeam": "DYNAMIQUES CCL",
+      "homeScore": 5,
+      "awayScore": 1,
+      "plays": [
+        {
+          "playerName": "DAMIEN BLANCHARD",
+          "team": "DYNAMIQUES CCL",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "LUCAS RAYMOND",
+          "team": "DYNAMIQUES CCL",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "JACOB ROY",
+          "team": "DYNAMIQUES CCL",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "LIAM NAUD",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "MATT GENDREAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "JAYDEN RIENDEAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 2
+        },
+        {
+          "playerName": "SAMUEL MEILLEUR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "GABRIEL ROY",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "SAMUEL LALANDE",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "CHARLES MAJOR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "ALEXIS POUDRIER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "ELLIOT PELLETIER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LAMBERT BOUCHER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        }
+      ]
     }
   ]
 }

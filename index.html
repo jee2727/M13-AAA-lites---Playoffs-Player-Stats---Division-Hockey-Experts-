@@ -108,6 +108,12 @@
             font-weight: 500;
         }
 
+        .team-name {
+            text-align: left;
+            font-size: 0.9em;
+            color: #555;
+        }
+
         .stat-cell {
             font-weight: 500;
         }
@@ -168,7 +174,7 @@
 
         <div class="content">
             <div class="stats-info">
-                <strong>Playoff Period:</strong> April 3-5, 2026 | <strong>Total Games:</strong> 7 | <strong>Division:</strong> Hockey Experts
+                <strong>Playoff Period:</strong> April 3-5, 2026 | <strong>Total Games:</strong> 11 | <strong>Division:</strong> Hockey Experts
             </div>
 
             <div id="table-container">
@@ -180,7 +186,7 @@
 
         <footer>
             <div>Data last updated: <span id="last-updated">N/A</span></div>
-            <div class="last-updated">Games provided: <span id="games-count">0</span> / 7</div>
+            <div class="last-updated">Games provided: <span id="games-count">0</span> / 11</div>
         </footer>
     </div>
 
@@ -210,6 +216,7 @@
                         if (!playerStats[playerName]) {
                             playerStats[playerName] = {
                                 name: playerName,
+                                team: play.team,
                                 gp: 0,
                                 goals: 0,
                                 assists: 0,
@@ -229,6 +236,7 @@
             // Calculate final stats
             const statsList = Object.values(playerStats).map(player => ({
                 name: player.name,
+                team: player.team,
                 gp: player.gamesPlayed.size,
                 goals: player.goals,
                 assists: player.assists,
@@ -269,6 +277,7 @@
                         <tr>
                             <th class="rank">#</th>
                             <th>Player</th>
+                            <th>Team</th>
                             <th>GP</th>
                             <th>G</th>
                             <th>A</th>
@@ -283,6 +292,7 @@
                     <tr>
                         <td class="rank">${index + 1}</td>
                         <td class="player-name">${player.name}</td>
+                        <td class="team-name">${player.team}</td>
                         <td class="stat-cell">${player.gp}</td>
                         <td class="stat-cell">${player.goals}</td>
                         <td class="stat-cell">${player.assists}</td>
