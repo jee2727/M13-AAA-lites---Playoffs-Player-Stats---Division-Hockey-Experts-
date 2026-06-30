@@ -285,6 +285,70 @@
           "assists": 0
         }
       ]
+    },
+    {
+      "gameId": 5,
+      "date": "2026-04-03",
+      "homeTeam": "NOIR ET OR DE MORTAGNE",
+      "awayTeam": "GRENADIERS LAC ST-LOUIS",
+      "homeScore": 2,
+      "awayScore": 3,
+      "plays": [
+        {
+          "playerName": "JAYDEN RIENDEAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "ELLIOT PELLETIER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "ARTHUR BOUCHER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "MARIN TESAR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "MATT GENDREAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "CHARLES MAJOR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "MATHIS BOISVERT",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 2,
+          "assists": 0
+        },
+        {
+          "playerName": "VINCENT VINET",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "EMMANUEL CAMPBELL",
+          "team": "GRENADIERS LAC ST-LOUIS",
+          "goals": 0,
+          "assists": 1
+        }
+      ]
     }
   ]
 }
