@@ -565,6 +565,58 @@
          "assists": 1
        }
       ]
-    }
-  ]
+   },
+   {
+     "gameId": 9,
+     "date": "2026-04-05",
+     "homeTeam": "LIONS LAC ST-LOUIS",
+     "awayTeam": "NOIR ET OR DE MORTAGNE",
+     "homeScore": 3,
+     "awayScore": 2,
+     "plays": [
+       {
+         "playerName": "JORDAN LOBE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 2,
+         "assists": 0
+       },
+       {
+         "playerName": "FINLEY BRUNELLE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "BRANDON TAMARO",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "ARTHUR BOUCHER",
+         "team": "NOIR ET OR DE MORTAGNE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "ALEXIS POUDRIER",
+         "team": "NOIR ET OR DE MORTAGNE",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "SAMUEL MEILLEUR",
+         "team": "NOIR ET OR DE MORTAGNE",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "GABRIEL ROY",
+         "team": "NOIR ET OR DE MORTAGNE",
+         "goals": 0,
+         "assists": 1
+       }
+     ]
+   }
+ ]
 }
