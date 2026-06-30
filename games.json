@@ -139,6 +139,82 @@
           "assists": 0
         }
       ]
+    },
+    {
+      "gameId": 3,
+      "date": "2026-04-03",
+      "homeTeam": "NOIR ET OR DE MORTAGNE",
+      "awayTeam": "COLLEGE FRANCAIS RIVE-SUD",
+      "homeScore": 4,
+      "awayScore": 2,
+      "plays": [
+        {
+          "playerName": "JUSTIN LAMBERT",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "DARREN ROSS",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "SAMUEL-JAMES BYRNS-AUBUT",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "CHARLES GAGNON",
+          "team": "COLLEGE FRANCAIS RIVE-SUD",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "MATT GENDREAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "JAYDEN RIENDEAU",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "SAMUEL LALANDE",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "ELLIOT PELLETIER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "playerName": "LIAM NAUD",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        },
+        {
+          "playerName": "SAMUEL MEILLEUR",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "playerName": "ARTHUR BOUCHER",
+          "team": "NOIR ET OR DE MORTAGNE",
+          "goals": 0,
+          "assists": 1
+        }
+      ]
     }
   ]
 }
