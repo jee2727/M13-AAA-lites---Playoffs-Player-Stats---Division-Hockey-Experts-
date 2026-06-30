@@ -693,6 +693,106 @@
          "assists": 1
        }
      ]
+   },
+   {
+     "gameId": 11,
+     "date": "2026-04-05",
+     "homeTeam": "LIONS LAC ST-LOUIS",
+     "awayTeam": "GRENADIERS LAC ST-LOUIS",
+     "homeScore": 7,
+     "awayScore": 1,
+     "plays": [
+       {
+         "playerName": "LIAM GEFFIN",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "KWENCY FONTAINE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 3
+       },
+       {
+         "playerName": "LIAM LESKIEWICZ",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "THOMAS LACELLE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "FINLEY BRUNELLE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "TYLER STEINBERG",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "SASHA DURDEVIC",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "JORDAN LOBE",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "THOMAS HENRY YARED",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 1
+       },
+       {
+         "playerName": "GEORGE MANOS",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "BRANDON TAMARO",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "AYDEN GOUDREAU",
+         "team": "LIONS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "JACOB FLETCHER",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 1,
+         "assists": 0
+       },
+       {
+         "playerName": "MIKO PAINCHAUD",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       },
+       {
+         "playerName": "MATHIS BOISVERT",
+         "team": "GRENADIERS LAC ST-LOUIS",
+         "goals": 0,
+         "assists": 1
+       }
+     ]
    }
  ]
 }
